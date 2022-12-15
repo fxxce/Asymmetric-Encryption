@@ -43,10 +43,10 @@ print(f"n: {n} \t ϕ(n): {phi_n}")
 print("----------------------------------------------")
 # e = a number less than n, such that n is relatively prime to (p - 1) x (q -1)
 e = e_value(phi_n)
-print(f"Private Key: ({e},{n})")
+print(f"Public Key: ({e},{n})")
 
 d = d_value(phi_n, e)
-print(f"Public Key: ({d},{n})")
+print(f"Private Key: ({d},{n})")
 print("----------------------------------------------")
 
 # Encryption: C = m^e mod n

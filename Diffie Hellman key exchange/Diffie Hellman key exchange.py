@@ -15,7 +15,7 @@ def primitive_root(prime):
                 primitive_root_list.append(num)
 
     print("Primitive Roots: ", primitive_root_list)
-    index = random.randint(0, len(primitive_root_list))
+    index = random.randrange(0, len(primitive_root_list))
     alpha = primitive_root_list[index]
     return alpha
 
