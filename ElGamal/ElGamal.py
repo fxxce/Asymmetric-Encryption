@@ -38,7 +38,7 @@ def group_members(n):
     print("Members in group (Zp)* :", lst)
     # Euler's toutient function value
     print("Phi(p):", len(lst))
-    index = random.randint(0, len(lst))
+    index = random.randrange(0, len(lst))
     d_val = lst[index]
     if d_val > (p - 2):
         index = random.randint(0, len(lst) - 2)
