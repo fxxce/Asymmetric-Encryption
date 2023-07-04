@@ -28,7 +28,7 @@ while (r2 > 0):
     t1 = t2
     t2 = t
 
-print(f"(s1, t1): ({s1},{t1}) --> Satisfies the 64's identity")
+print(f"(s1, t1): ({s1},{t1}) --> Satisfies the Bézout's identity")
 print(f"{a} * {s1} + {b} * {t1} = gcd({a}, {b})")
 
 # checking if the obtained value satisfy ax + by = gcd(a, b)
